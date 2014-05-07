@@ -16,4 +16,10 @@ describe PivotalApi do
     expect(steves_stories).to include "As a user, I can view all of the stories for a project"
     expect(steves_stories).to include "As a user, I can view all of my projects"
   end
+
+  it 'can view all comments for the project' do
+    steves_comments = steve.get_comments('1075330')
+    expect(steves_comments).to include "This is a comment on the comment story"
+    expect(steves_comments).to include "What  a great comment"
+  end
 end

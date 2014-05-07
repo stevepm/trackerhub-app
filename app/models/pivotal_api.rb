@@ -21,4 +21,19 @@ class PivotalApi
       story["name"]
     end
   end
+
+  def get_comments(project_id)
+    comments_array = []
+    stories = @conn.get "/services/v5/projects/#{project_id}/stories#{@token}"
+    stories = JSON.parse(stories.body)
+    stories.each do |story|
+      story_id = story["id"]
+      comments = @conn.get "/services/v5/projects/#{project_id}/stories/#{story_id}/comments#{@token}"
+      comments = JSON.parse(comments.body)
+      comments.each do |comment|
+        comments_array << comment["text"]
+      end
+    end
+    comments_array
+  end
 end
