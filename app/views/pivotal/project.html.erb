@@ -1,7 +1,18 @@
 <h1>Stories</h1>
+
 <ul>
   <% @stories.each do |story| %>
     <li><%= story %></li>
 
+  <% end %>
+</ul>
+
+<hr>
+
+<h1>Tracker Comments</h1>
+
+<ul>
+  <% @comments.each do |comment| %>
+    <li><%= comment %></li>
   <% end %>
 </ul>

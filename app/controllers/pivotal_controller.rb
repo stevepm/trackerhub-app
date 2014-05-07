@@ -11,5 +11,6 @@ class PivotalController < ApplicationController
   def project
     id = params[:id]
     @stories = PivotalApi.new.get_stories(id)
+    @comments = PivotalApi.new.get_comments(id)
   end
 end
