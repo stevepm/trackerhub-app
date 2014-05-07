@@ -8,4 +8,12 @@ feature 'Show pivotal tracker projects' do
     expect(page).to have_content "App Review"
     expect(page).to have_content "Salary Survey"
   end
+
+  scenario 'User can see stories per project' do
+    visit '/'
+    click_link "View Projects"
+    click_on 'Magelowitz and King TrackerHub'
+    expect(page).to have_content "As a user, I can view all of my projects"
+    expect(page).to have_content "As a user, I can view all of the stories for a project"
+  end
 end

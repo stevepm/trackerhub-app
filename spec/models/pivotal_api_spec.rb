@@ -1,10 +1,19 @@
 require 'spec_helper'
 
 describe PivotalApi do
-  it 'can get the body for steve' do
-    steve = PivotalApi.new
-    steves_body = steve.get_projects
-    expect(steves_body).to include('Salary Survey')
-    expect(steves_body).to include('App Review')
+  let(:steve) { PivotalApi.new }
+
+  it 'can get project names' do
+    steves_names = steve.get_projects.map do |project|
+      project["project_name"]
+    end
+    expect(steves_names).to include('Salary Survey')
+    expect(steves_names).to include('App Review')
+  end
+
+  it 'can view the stories for a specific project' do
+    steves_stories = steve.get_stories('1075330')
+    expect(steves_stories).to include "As a user, I can view all of the stories for a project"
+    expect(steves_stories).to include "As a user, I can view all of my projects"
   end
 end
