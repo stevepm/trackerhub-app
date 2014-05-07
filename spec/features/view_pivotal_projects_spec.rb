@@ -16,4 +16,12 @@ feature 'Show pivotal tracker projects' do
     expect(page).to have_content "As a user, I can view all of my projects"
     expect(page).to have_content "As a user, I can view all of the stories for a project"
   end
+
+  scenario 'User is able to see all project comments' do
+    visit '/'
+    click_link "View Projects"
+    click_on 'Magelowitz and King TrackerHub'
+    expect(page).to have_content "This is a comment on the comment story"
+    expect(page).to have_content "This is a second test comment on the first story"
+  end
 end
