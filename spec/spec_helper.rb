@@ -44,7 +44,6 @@ RSpec.configure do |config|
     c.cassette_library_dir = 'spec/vcr'
     c.hook_into :webmock # or :fakeweb
     c.filter_sensitive_data('<TRACKER-TOKEN>') { ENV['STEVE_PIVOTAL'] }
-    # c.filter_sensitive_data('<GITHUB-USERNAME>') {"ENV['GUS_GH_U']"}
-    # c.filter_sensitive_data('<GITHUB-PASSWORD>') {"ENV['GUS_GH_P']"}
+    c.filter_sensitive_data('<GITHUB-TOKEN>') { ENV['GUS_TOKEN'] }
   end
 end

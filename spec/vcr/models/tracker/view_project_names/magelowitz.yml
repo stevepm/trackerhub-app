@@ -29,11 +29,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 913085f52b05378229f206aa8ae47f7f
+      - 809a13af5aa5796b50fce0751ea3f8bb
       X-Runtime:
-      - '0.045199'
+      - '0.042683'
       Date:
-      - Thu, 08 May 2014 17:07:53 GMT
+      - Thu, 08 May 2014 20:29:27 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -152,12 +152,12 @@ http_interactions:
               "project_name": "Magelowitz and King TrackerHub",
               "project_color": "d82b00",
               "role": "owner",
-              "last_viewed_at": "2014-05-07T21:03:58Z"
+              "last_viewed_at": "2014-05-08T19:47:41Z"
             }
           ],
           "email": "steven.magelowitz@gmail.com",
           "receives_in_app_notifications": true
         }
     http_version: 
-  recorded_at: Thu, 08 May 2014 17:07:53 GMT
+  recorded_at: Thu, 08 May 2014 20:30:40 GMT
 recorded_with: VCR 2.9.0

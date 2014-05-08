@@ -30,4 +30,14 @@ feature 'Show pivotal tracker projects' do
       expect(page).to have_content "This is a second test comment on the first story"
     end
   end
+
+  scenario 'User can see comments that are on github' do
+    VCR.use_cassette('features/tracker/view_github_comments/king', :record => :all) do
+      visit '/'
+      click_link "View Projects"
+      click_on 'Magelowitz and King TrackerHub'
+      expect(page).to have_content "test comment"
+      expect(page).to have_content "gus king comment test"
+    end
+  end
 end

@@ -29,11 +29,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 2b83e32bb297b7b4c9502aa9a7bb728e
+      - 0652451ea3b9507dfcaf912968c3840f
       X-Runtime:
-      - '0.053742'
+      - '0.042833'
       Date:
-      - Thu, 08 May 2014 21:05:01 GMT
+      - Thu, 08 May 2014 21:01:06 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -159,7 +159,7 @@ http_interactions:
           "receives_in_app_notifications": true
         }
     http_version: 
-  recorded_at: Thu, 08 May 2014 21:05:01 GMT
+  recorded_at: Thu, 08 May 2014 21:02:20 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/me?token=<TRACKER-TOKEN>
@@ -189,11 +189,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 1a45f5989f3ef969406cb7f305a236b1
+      - 05a03913b3543ea9fff7f42335c74958
       X-Runtime:
-      - '0.043826'
+      - '0.041378'
       Date:
-      - Thu, 08 May 2014 21:05:01 GMT
+      - Thu, 08 May 2014 21:02:20 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -319,7 +319,7 @@ http_interactions:
           "receives_in_app_notifications": true
         }
     http_version: 
-  recorded_at: Thu, 08 May 2014 21:05:01 GMT
+  recorded_at: Thu, 08 May 2014 21:02:20 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects/1075330/stories?token=<TRACKER-TOKEN>
@@ -359,11 +359,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 7e0fe60897148d497a5a1fa905a970e4
+      - b94b4df7475b2e3e42d324795855cb04
       X-Runtime:
-      - '0.041799'
+      - '0.035922'
       Date:
-      - Thu, 08 May 2014 21:05:01 GMT
+      - Thu, 08 May 2014 21:02:20 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -528,7 +528,7 @@ http_interactions:
           }
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 21:05:02 GMT
+  recorded_at: Thu, 08 May 2014 21:02:20 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects/1075330/stories?token=<TRACKER-TOKEN>
@@ -568,11 +568,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 960fc1192f4378591625c0b1fecdbfa7
+      - fa1fdf66639b0236b20dca5e7748b197
       X-Runtime:
-      - '0.046679'
+      - '0.031584'
       Date:
-      - Thu, 08 May 2014 21:03:48 GMT
+      - Thu, 08 May 2014 21:02:20 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -737,7 +737,7 @@ http_interactions:
           }
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 21:05:02 GMT
+  recorded_at: Thu, 08 May 2014 21:02:21 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects/1075330/stories/70867114/comments?token=<TRACKER-TOKEN>
@@ -769,11 +769,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 0971a9b07e3947d1338aac0e5a9aaf4a
+      - 380187b58a7a066679244e62d9b8d0ae
       X-Runtime:
-      - '0.035623'
+      - '0.030526'
       Date:
-      - Thu, 08 May 2014 21:05:02 GMT
+      - Thu, 08 May 2014 21:01:07 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -832,7 +832,7 @@ http_interactions:
           }
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 21:05:02 GMT
+  recorded_at: Thu, 08 May 2014 21:02:21 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects/1075330/stories/70867116/comments?token=<TRACKER-TOKEN>
@@ -864,11 +864,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - d0512e66be2502a0002c69602354d96e
+      - ea2bfdfbdc6f6232b19a0ee0821f8581
       X-Runtime:
-      - '0.032274'
+      - '0.030920'
       Date:
-      - Thu, 08 May 2014 21:05:02 GMT
+      - Thu, 08 May 2014 21:02:21 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -900,7 +900,7 @@ http_interactions:
           }
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 21:05:02 GMT
+  recorded_at: Thu, 08 May 2014 21:02:21 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects/1075330/stories/70867118/comments?token=<TRACKER-TOKEN>
@@ -932,11 +932,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - c7fcb002ce76bb84be0ecdb1438be91e
+      - 0341332415328ab84ac6548ceb35edd8
       X-Runtime:
-      - '0.032798'
+      - '0.029960'
       Date:
-      - Thu, 08 May 2014 21:05:02 GMT
+      - Thu, 08 May 2014 21:02:21 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -997,7 +997,7 @@ http_interactions:
           }
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 21:05:03 GMT
+  recorded_at: Thu, 08 May 2014 21:02:22 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects/1075330/stories/70867120/comments?token=<TRACKER-TOKEN>
@@ -1029,11 +1029,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - dbc5ee9c75563afe910a56018be151fe
+      - d86372425fa6bbfce9ebff981e5bd0e8
       X-Runtime:
-      - '0.030527'
+      - '0.031805'
       Date:
-      - Thu, 08 May 2014 21:03:49 GMT
+      - Thu, 08 May 2014 21:02:22 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -1055,7 +1055,7 @@ http_interactions:
 
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 21:05:03 GMT
+  recorded_at: Thu, 08 May 2014 21:02:22 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects/1075330/stories/70867122/comments?token=<TRACKER-TOKEN>
@@ -1087,11 +1087,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - e943a6ff13468ffb8e4cdb9ac8403d2c
+      - cad9632e68ec86eee28f1628627dc24c
       X-Runtime:
-      - '0.029878'
+      - '0.031525'
       Date:
-      - Thu, 08 May 2014 21:05:03 GMT
+      - Thu, 08 May 2014 21:02:22 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -1113,7 +1113,7 @@ http_interactions:
 
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 21:05:03 GMT
+  recorded_at: Thu, 08 May 2014 21:02:23 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects/1075330/stories/70867124/comments?token=<TRACKER-TOKEN>
@@ -1145,11 +1145,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 718ad7678dae17d953bd735c5bcbed80
+      - 824668ff137de7ff9662e141c3b4e365
       X-Runtime:
-      - '0.039124'
+      - '0.031676'
       Date:
-      - Thu, 08 May 2014 21:05:03 GMT
+      - Thu, 08 May 2014 21:02:23 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -1171,7 +1171,7 @@ http_interactions:
 
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 21:05:03 GMT
+  recorded_at: Thu, 08 May 2014 21:02:23 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects/1075330/stories/70867126/comments?token=<TRACKER-TOKEN>
@@ -1203,11 +1203,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 35cff510cdb27d83a1a27acae77542d8
+      - b5720727ddbb58bc318f8762a157b6a2
       X-Runtime:
-      - '0.031443'
+      - '0.037478'
       Date:
-      - Thu, 08 May 2014 21:05:03 GMT
+      - Thu, 08 May 2014 21:02:23 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -1229,7 +1229,7 @@ http_interactions:
 
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 21:05:04 GMT
+  recorded_at: Thu, 08 May 2014 21:02:23 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects/1075330/stories?token=<TRACKER-TOKEN>
@@ -1269,11 +1269,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 357c7c227fc0254d68590e4d5a0891d0
+      - 4f7d1e5c2728fdeb49c36271ed6674aa
       X-Runtime:
-      - '0.033031'
+      - '0.029226'
       Date:
-      - Thu, 08 May 2014 21:05:04 GMT
+      - Thu, 08 May 2014 21:02:23 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -1438,7 +1438,7 @@ http_interactions:
           }
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 21:05:04 GMT
+  recorded_at: Thu, 08 May 2014 21:02:23 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects/1075330/stories/70867114/comments?token=<TRACKER-TOKEN>
@@ -1470,11 +1470,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - cd9426483c06095f36cee4b41daf12a2
+      - fd88b8fd634b46153c77abaf8504b584
       X-Runtime:
-      - '0.034190'
+      - '0.029381'
       Date:
-      - Thu, 08 May 2014 21:05:04 GMT
+      - Thu, 08 May 2014 21:02:23 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -1533,7 +1533,7 @@ http_interactions:
           }
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 21:05:04 GMT
+  recorded_at: Thu, 08 May 2014 21:02:24 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects/1075330/stories/70867116/comments?token=<TRACKER-TOKEN>
@@ -1565,11 +1565,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 3a81ab2ecd772478291042d2ad0dae30
+      - 4f60d2f6b8d93587b13ae5c79be0c099
       X-Runtime:
-      - '0.032136'
+      - '0.034063'
       Date:
-      - Thu, 08 May 2014 21:05:04 GMT
+      - Thu, 08 May 2014 21:02:24 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -1601,7 +1601,7 @@ http_interactions:
           }
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 21:05:04 GMT
+  recorded_at: Thu, 08 May 2014 21:02:24 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects/1075330/stories/70867118/comments?token=<TRACKER-TOKEN>
@@ -1633,11 +1633,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 331ef6cae3a463e823b8574bb4dadc25
+      - c5983bc329d8739ec5f3c065972a8066
       X-Runtime:
-      - '0.031711'
+      - '0.030214'
       Date:
-      - Thu, 08 May 2014 21:05:04 GMT
+      - Thu, 08 May 2014 21:02:24 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -1698,7 +1698,7 @@ http_interactions:
           }
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 21:05:05 GMT
+  recorded_at: Thu, 08 May 2014 21:02:25 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects/1075330/stories/70867120/comments?token=<TRACKER-TOKEN>
@@ -1730,11 +1730,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - d0ea9f047c9c21ec5e561161b0270863
+      - 06b3dc02bac5b694cca63af8ec314ec6
       X-Runtime:
-      - '0.030737'
+      - '0.033102'
       Date:
-      - Thu, 08 May 2014 21:03:51 GMT
+      - Thu, 08 May 2014 21:02:25 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -1756,7 +1756,7 @@ http_interactions:
 
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 21:05:05 GMT
+  recorded_at: Thu, 08 May 2014 21:02:25 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects/1075330/stories/70867122/comments?token=<TRACKER-TOKEN>
@@ -1788,11 +1788,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 165c98ed0cec5b7c2ee332b5659970ec
+      - db6b4b37474f0d28243f94e3ff74b6ae
       X-Runtime:
-      - '0.034096'
+      - '0.031381'
       Date:
-      - Thu, 08 May 2014 21:03:52 GMT
+      - Thu, 08 May 2014 21:02:26 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -1814,7 +1814,7 @@ http_interactions:
 
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 21:05:05 GMT
+  recorded_at: Thu, 08 May 2014 21:02:27 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects/1075330/stories/70867124/comments?token=<TRACKER-TOKEN>
@@ -1846,11 +1846,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 4fd779c7ed744b87e65eb864b505124f
+      - 8d7bb6ddcc489cbaac8bbf01e11b8dfa
       X-Runtime:
-      - '0.041962'
+      - '0.034093'
       Date:
-      - Thu, 08 May 2014 21:05:05 GMT
+      - Thu, 08 May 2014 21:02:27 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -1872,7 +1872,7 @@ http_interactions:
 
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 21:05:05 GMT
+  recorded_at: Thu, 08 May 2014 21:02:27 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects/1075330/stories/70867126/comments?token=<TRACKER-TOKEN>
@@ -1904,11 +1904,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 750f1ccd3158627ff7bad6b1c4b914c4
+      - 7f8ec8b38921d0bc7202fe14a90c151d
       X-Runtime:
-      - '0.029857'
+      - '0.037289'
       Date:
-      - Thu, 08 May 2014 21:05:06 GMT
+      - Thu, 08 May 2014 21:02:29 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -1930,7 +1930,7 @@ http_interactions:
 
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 21:05:06 GMT
+  recorded_at: Thu, 08 May 2014 21:02:29 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/stevepm/trackerhub-app/commits/9935d4ac5d0ea9bf59bc1f6f0dff35b5a0c50879/comments
@@ -1954,7 +1954,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Thu, 08 May 2014 21:05:06 GMT
+      - Thu, 08 May 2014 21:02:29 GMT
       Content-Type:
       - application/json; charset=utf-8
       Status:
@@ -1962,7 +1962,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4935'
+      - '4943'
       X-Ratelimit-Reset:
       - '1399583983'
       Cache-Control:
@@ -1997,18 +1997,18 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - AD0E15D1:6B86:4BF2087:536BF182
+      - AD0E15D1:6B89:CDF21FF:536BF0E5
       Strict-Transport-Security:
       - max-age=31536000
       X-Content-Type-Options:
       - nosniff
       X-Served-By:
-      - a8d8e492d6966f0c23dee2eed64c678a
+      - 3061975e1f37121b3751604ad153c687
     body:
       encoding: UTF-8
       string: "[]"
     http_version: 
-  recorded_at: Thu, 08 May 2014 21:05:06 GMT
+  recorded_at: Thu, 08 May 2014 21:02:30 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/stevepm/trackerhub-app/commits/0633a8c0a11e61f72e4f715d9d51e49f5b4ceada/comments
@@ -2032,7 +2032,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Thu, 08 May 2014 21:05:06 GMT
+      - Thu, 08 May 2014 21:02:30 GMT
       Content-Type:
       - application/json; charset=utf-8
       Status:
@@ -2040,7 +2040,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4934'
+      - '4942'
       X-Ratelimit-Reset:
       - '1399583983'
       Cache-Control:
@@ -2075,18 +2075,18 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - AD0E15D1:6B86:4BF20DE:536BF182
+      - AD0E15D1:6B86:4BEA964:536BF0E5
       Strict-Transport-Security:
       - max-age=31536000
       X-Content-Type-Options:
       - nosniff
       X-Served-By:
-      - 6d7de9e645814cac34ea2a8d72ba3141
+      - a1d8c69b807c8e21f06cad9da377d1b0
     body:
       encoding: UTF-8
       string: "[]"
     http_version: 
-  recorded_at: Thu, 08 May 2014 21:05:07 GMT
+  recorded_at: Thu, 08 May 2014 21:02:30 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/stevepm/trackerhub-app/commits/3b3cb1566251005ef65a92a59ed6ba77e4c90479/comments
@@ -2110,7 +2110,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Thu, 08 May 2014 21:05:07 GMT
+      - Thu, 08 May 2014 21:02:30 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -2120,7 +2120,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4933'
+      - '4941'
       X-Ratelimit-Reset:
       - '1399583983'
       Cache-Control:
@@ -2150,19 +2150,19 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - AD0E15D1:6B8A:369258D:536BF183
+      - AD0E15D1:6B87:7868019:536BF0E6
       Strict-Transport-Security:
       - max-age=31536000
       X-Content-Type-Options:
       - nosniff
       X-Served-By:
-      - c046d59f93ede9ab52d5ac29f1ed70f7
+      - 88d924ed861736d2749ce1a55766cb53
     body:
       encoding: UTF-8
       string: '[{"url":"https://api.github.com/repos/stevepm/trackerhub-app/comments/6258694","html_url":"https://github.com/stevepm/trackerhub-app/commit/3b3cb1566251005ef65a92a59ed6ba77e4c90479#commitcomment-6258694","id":6258694,"user":{"login":"stevepm","id":431557,"avatar_url":"https://avatars.githubusercontent.com/u/431557?","gravatar_id":"08b96ab0385e9023d3b37f77e55258b3","url":"https://api.github.com/users/stevepm","html_url":"https://github.com/stevepm","followers_url":"https://api.github.com/users/stevepm/followers","following_url":"https://api.github.com/users/stevepm/following{/other_user}","gists_url":"https://api.github.com/users/stevepm/gists{/gist_id}","starred_url":"https://api.github.com/users/stevepm/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/stevepm/subscriptions","organizations_url":"https://api.github.com/users/stevepm/orgs","repos_url":"https://api.github.com/users/stevepm/repos","events_url":"https://api.github.com/users/stevepm/events{/privacy}","received_events_url":"https://api.github.com/users/stevepm/received_events","type":"User","site_admin":false},"position":null,"line":null,"path":null,"commit_id":"3b3cb1566251005ef65a92a59ed6ba77e4c90479","created_at":"2014-05-08T17:12:03Z","updated_at":"2014-05-08T17:12:03Z","body":"test
         comment"}]'
     http_version: 
-  recorded_at: Thu, 08 May 2014 21:05:07 GMT
+  recorded_at: Thu, 08 May 2014 21:02:30 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/stevepm/trackerhub-app/commits/69245350b031c5573fe2b6da9dad4514f5625f0d/comments
@@ -2186,7 +2186,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Thu, 08 May 2014 21:05:07 GMT
+      - Thu, 08 May 2014 21:02:30 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -2196,7 +2196,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4932'
+      - '4940'
       X-Ratelimit-Reset:
       - '1399583983'
       Cache-Control:
@@ -2226,18 +2226,18 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - AD0E15D1:6B84:F61DBF:536BF183
+      - AD0E15D1:6B86:4BEA9EB:536BF0E6
       Strict-Transport-Security:
       - max-age=31536000
       X-Content-Type-Options:
       - nosniff
       X-Served-By:
-      - 62a1303ae95931e56e387e87d354bb24
+      - c046d59f93ede9ab52d5ac29f1ed70f7
     body:
       encoding: UTF-8
       string: '[{"url":"https://api.github.com/repos/stevepm/trackerhub-app/comments/6258703","html_url":"https://github.com/stevepm/trackerhub-app/commit/69245350b031c5573fe2b6da9dad4514f5625f0d#commitcomment-6258703","id":6258703,"user":{"login":"stevepm","id":431557,"avatar_url":"https://avatars.githubusercontent.com/u/431557?","gravatar_id":"08b96ab0385e9023d3b37f77e55258b3","url":"https://api.github.com/users/stevepm","html_url":"https://github.com/stevepm","followers_url":"https://api.github.com/users/stevepm/followers","following_url":"https://api.github.com/users/stevepm/following{/other_user}","gists_url":"https://api.github.com/users/stevepm/gists{/gist_id}","starred_url":"https://api.github.com/users/stevepm/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/stevepm/subscriptions","organizations_url":"https://api.github.com/users/stevepm/orgs","repos_url":"https://api.github.com/users/stevepm/repos","events_url":"https://api.github.com/users/stevepm/events{/privacy}","received_events_url":"https://api.github.com/users/stevepm/received_events","type":"User","site_admin":false},"position":null,"line":null,"path":null,"commit_id":"69245350b031c5573fe2b6da9dad4514f5625f0d","created_at":"2014-05-08T17:12:39Z","updated_at":"2014-05-08T17:12:39Z","body":"gus
         king comment test"},{"url":"https://api.github.com/repos/stevepm/trackerhub-app/comments/6259187","html_url":"https://github.com/stevepm/trackerhub-app/commit/69245350b031c5573fe2b6da9dad4514f5625f0d#commitcomment-6259187","id":6259187,"user":{"login":"stevepm","id":431557,"avatar_url":"https://avatars.githubusercontent.com/u/431557?","gravatar_id":"08b96ab0385e9023d3b37f77e55258b3","url":"https://api.github.com/users/stevepm","html_url":"https://github.com/stevepm","followers_url":"https://api.github.com/users/stevepm/followers","following_url":"https://api.github.com/users/stevepm/following{/other_user}","gists_url":"https://api.github.com/users/stevepm/gists{/gist_id}","starred_url":"https://api.github.com/users/stevepm/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/stevepm/subscriptions","organizations_url":"https://api.github.com/users/stevepm/orgs","repos_url":"https://api.github.com/users/stevepm/repos","events_url":"https://api.github.com/users/stevepm/events{/privacy}","received_events_url":"https://api.github.com/users/stevepm/received_events","type":"User","site_admin":false},"position":null,"line":null,"path":null,"commit_id":"69245350b031c5573fe2b6da9dad4514f5625f0d","created_at":"2014-05-08T17:41:38Z","updated_at":"2014-05-08T17:41:38Z","body":"test
         comment"}]'
     http_version: 
-  recorded_at: Thu, 08 May 2014 21:05:07 GMT
+  recorded_at: Thu, 08 May 2014 21:02:31 GMT
 recorded_with: VCR 2.9.0

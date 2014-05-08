@@ -74,6 +74,8 @@ GEM
     multipart-post (2.0.0)
     nokogiri (1.6.1)
       mini_portile (~> 0.5.0)
+    octokit (3.1.0)
+      sawyer (~> 0.5.3)
     pg (0.17.1)
     polyglot (0.3.4)
     rack (1.5.2)
@@ -116,6 +118,9 @@ GEM
       sass (~> 3.2.0)
       sprockets (~> 2.8, <= 2.11.0)
       sprockets-rails (~> 2.0)
+    sawyer (0.5.4)
+      addressable (~> 2.3.5)
+      faraday (~> 0.8, < 0.10)
     sdoc (0.4.0)
       json (~> 1.8)
       rdoc (~> 4.0, < 5.0)
@@ -158,6 +163,7 @@ DEPENDENCIES
   faraday (~> 0.9.0)
   jbuilder (~> 2.0)
   jquery-rails
+  octokit (~> 3.1.0)
   pg
   rails (= 4.1.0)
   rspec-rails (~> 2.14.2)

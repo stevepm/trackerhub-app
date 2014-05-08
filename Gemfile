@@ -27,9 +27,14 @@ gem 'faraday', '~> 0.9.0'
 
 gem 'dotenv-rails', '~> 0.11.1'
 
+gem 'octokit', '~> 3.1.0'
+
 group :test, :development do
   gem 'rspec-rails', '~> 2.14.2'
   gem 'capybara', '~> 2.2.1'
   gem 'vcr', '~> 2.9.0'
+end
+
+group :test do
   gem 'webmock', '~> 1.17.4'
 end

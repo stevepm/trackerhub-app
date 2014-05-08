@@ -36,4 +36,18 @@ class PivotalApi
     end
     comments_array
   end
+
+  def github_comments(project_id)
+    comments = []
+    get_comments(project_id).each do |comment|
+      if comment.match(/.*https:\/\/github.com\/(\w+)\/([\w[-]?]+)\/commit\/(\w+)/)
+        comment = comment.scan(/.*https:\/\/github.com\/(\w+)\/([\w[-]?]+)\/commit\/(\w+)/)
+        username = comment.flatten[0]
+        app = comment.flatten[1]
+        commit_id = comment.flatten[2]
+        comments << GithubApi.new.github_comments(username, app, commit_id)
+      end
+    end
+    comments
+  end
 end

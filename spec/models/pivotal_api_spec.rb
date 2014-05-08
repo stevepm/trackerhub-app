@@ -28,4 +28,12 @@ describe PivotalApi do
       expect(steves_comments).to include "What  a great comment"
     end
   end
+
+  it 'can view all github comments for specific project id' do
+    VCR.use_cassette('models/github/github_comments', :record => :all) do
+      github_comments = steve.github_comments('1075330')
+      expect(github_comments).to include ["test comment"]
+      expect(github_comments).to include ["gus king comment test", "test comment"]
+    end
+  end
 end

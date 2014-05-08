@@ -1,0 +1,158 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.github.com/repos/octocat/Spoon-Knife/commits/69245350b031c5573fe2b6da9dad4514f5625f0d/comments
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - Octokit Ruby Gem 3.1.0
+      Authorization:
+      - token <GITHUB-TOKEN>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Thu, 08 May 2014 17:37:32 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4999'
+      X-Ratelimit-Reset:
+      - '1399574252'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Etag:
+      - '"a16c17a97a07be4f366e9add183497c2"'
+      X-Oauth-Scopes:
+      - gist, repo, user
+      X-Accepted-Oauth-Scopes:
+      - ''
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Link:
+      - <https://api.github.com/repositories/1300192/commits/69245350b031c5573fe2b6da9dad4514f5625f0d/comments?page=0>;
+        rel="last"
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      Content-Security-Policy:
+      - default-src 'none'
+      Content-Length:
+      - '2'
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Github-Request-Id:
+      - AD0E15D1:6B89:C88F1D6:536BC0DC
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Content-Type-Options:
+      - nosniff
+      X-Served-By:
+      - d818ddef80f4c7d10683dd483558952a
+    body:
+      encoding: UTF-8
+      string: "[]"
+    http_version: 
+  recorded_at: Thu, 08 May 2014 17:37:32 GMT
+- request:
+    method: get
+    uri: https://api.github.com/repos/stevepm/trackerhub-app/commits/69245350b031c5573fe2b6da9dad4514f5625f0d/comments
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - Octokit Ruby Gem 3.1.0
+      Authorization:
+      - token <GITHUB-TOKEN>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Thu, 08 May 2014 21:05:40 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4919'
+      X-Ratelimit-Reset:
+      - '1399583983'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Etag:
+      - '"1ab68d56b1da4ce4c60bba464e654c9f"'
+      X-Oauth-Scopes:
+      - gist, repo, user
+      X-Accepted-Oauth-Scopes:
+      - ''
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3; format=json
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      Content-Security-Policy:
+      - default-src 'none'
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Github-Request-Id:
+      - AD0E15D1:6B8A:3693BD1:536BF1A4
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Content-Type-Options:
+      - nosniff
+      X-Served-By:
+      - 132026e9262a0093e437f99db5f1e499
+    body:
+      encoding: UTF-8
+      string: '[{"url":"https://api.github.com/repos/stevepm/trackerhub-app/comments/6258703","html_url":"https://github.com/stevepm/trackerhub-app/commit/69245350b031c5573fe2b6da9dad4514f5625f0d#commitcomment-6258703","id":6258703,"user":{"login":"stevepm","id":431557,"avatar_url":"https://avatars.githubusercontent.com/u/431557?","gravatar_id":"08b96ab0385e9023d3b37f77e55258b3","url":"https://api.github.com/users/stevepm","html_url":"https://github.com/stevepm","followers_url":"https://api.github.com/users/stevepm/followers","following_url":"https://api.github.com/users/stevepm/following{/other_user}","gists_url":"https://api.github.com/users/stevepm/gists{/gist_id}","starred_url":"https://api.github.com/users/stevepm/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/stevepm/subscriptions","organizations_url":"https://api.github.com/users/stevepm/orgs","repos_url":"https://api.github.com/users/stevepm/repos","events_url":"https://api.github.com/users/stevepm/events{/privacy}","received_events_url":"https://api.github.com/users/stevepm/received_events","type":"User","site_admin":false},"position":null,"line":null,"path":null,"commit_id":"69245350b031c5573fe2b6da9dad4514f5625f0d","created_at":"2014-05-08T17:12:39Z","updated_at":"2014-05-08T17:12:39Z","body":"gus
+        king comment test"},{"url":"https://api.github.com/repos/stevepm/trackerhub-app/comments/6259187","html_url":"https://github.com/stevepm/trackerhub-app/commit/69245350b031c5573fe2b6da9dad4514f5625f0d#commitcomment-6259187","id":6259187,"user":{"login":"stevepm","id":431557,"avatar_url":"https://avatars.githubusercontent.com/u/431557?","gravatar_id":"08b96ab0385e9023d3b37f77e55258b3","url":"https://api.github.com/users/stevepm","html_url":"https://github.com/stevepm","followers_url":"https://api.github.com/users/stevepm/followers","following_url":"https://api.github.com/users/stevepm/following{/other_user}","gists_url":"https://api.github.com/users/stevepm/gists{/gist_id}","starred_url":"https://api.github.com/users/stevepm/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/stevepm/subscriptions","organizations_url":"https://api.github.com/users/stevepm/orgs","repos_url":"https://api.github.com/users/stevepm/repos","events_url":"https://api.github.com/users/stevepm/events{/privacy}","received_events_url":"https://api.github.com/users/stevepm/received_events","type":"User","site_admin":false},"position":null,"line":null,"path":null,"commit_id":"69245350b031c5573fe2b6da9dad4514f5625f0d","created_at":"2014-05-08T17:41:38Z","updated_at":"2014-05-08T17:41:38Z","body":"test
+        comment"}]'
+    http_version: 
+  recorded_at: Thu, 08 May 2014 21:05:40 GMT
+recorded_with: VCR 2.9.0

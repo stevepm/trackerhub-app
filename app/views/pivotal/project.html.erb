@@ -16,3 +16,16 @@
     <li><%= comment %></li>
   <% end %>
 </ul>
+
+<hr>
+
+<h1>Github Comments</h1>
+
+<ul>
+  <% @gh_comments.each do |comment| %>
+    <% if comment == [] %>
+    <% else %>
+      <li><%= comment %></li>
+    <% end %>
+  <% end %>
+</ul>

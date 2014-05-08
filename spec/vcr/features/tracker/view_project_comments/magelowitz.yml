@@ -29,11 +29,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 39ecb7ebd66d434b4b6840adca86dbc7
+      - cf5eeb73996eea70e6d686483ad455c3
       X-Runtime:
-      - '0.063460'
+      - '0.039747'
       Date:
-      - Thu, 08 May 2014 17:07:54 GMT
+      - Thu, 08 May 2014 21:05:07 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -152,14 +152,174 @@ http_interactions:
               "project_name": "Magelowitz and King TrackerHub",
               "project_color": "d82b00",
               "role": "owner",
-              "last_viewed_at": "2014-05-07T21:03:58Z"
+              "last_viewed_at": "2014-05-08T19:47:41Z"
             }
           ],
           "email": "steven.magelowitz@gmail.com",
           "receives_in_app_notifications": true
         }
     http_version: 
-  recorded_at: Thu, 08 May 2014 17:07:54 GMT
+  recorded_at: Thu, 08 May 2014 21:05:08 GMT
+- request:
+    method: get
+    uri: https://www.pivotaltracker.com/services/v5/me?token=<TRACKER-TOKEN>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 79eaee9f7b0d9305b88b1410d322fa68
+      X-Runtime:
+      - '0.047150'
+      Date:
+      - Thu, 08 May 2014 21:03:54 GMT
+      X-Rack-Cache:
+      - miss
+      X-Powered-By:
+      - Phusion Passenger 4.0.41
+      Server:
+      - nginx/1.6.0 + Phusion Passenger 4.0.41
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Headers:
+      - X-TrackerToken,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Tracker-Warn-Unless-Project-Version-Is
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "kind": "me",
+          "id": 1256942,
+          "name": "Steven Magelowitz",
+          "initials": "sm",
+          "username": "stevenmagelowitz",
+          "time_zone": {
+            "kind": "time_zone",
+            "olson_name": "America/Los_Angeles",
+            "offset": "-07:00"
+          },
+          "api_token": "<TRACKER-TOKEN>",
+          "has_google_identity": false,
+          "projects": [
+            {
+              "kind": "membership_summary",
+              "id": 3967062,
+              "project_id": 966426,
+              "project_name": "gSchoolMarch2014Curriculum",
+              "project_color": "cccccc",
+              "role": "viewer",
+              "last_viewed_at": "2014-05-07T16:22:43Z"
+            },
+            {
+              "kind": "membership_summary",
+              "id": 4011670,
+              "project_id": 1029336,
+              "project_name": "Steve Magelowitz's work",
+              "project_color": "74a4d7",
+              "role": "owner",
+              "last_viewed_at": "2014-03-27T19:05:05Z"
+            },
+            {
+              "kind": "membership_summary",
+              "id": 4019554,
+              "project_id": 1031130,
+              "project_name": "students.gschool.it",
+              "project_color": "ffc100",
+              "role": "member",
+              "last_viewed_at": "2014-04-14T07:38:55Z"
+            },
+            {
+              "kind": "membership_summary",
+              "id": 4047462,
+              "project_id": 1037360,
+              "project_name": "gSchoolScreenHeroRequests",
+              "project_color": "ba6eff",
+              "role": "member",
+              "last_viewed_at": "2014-03-21T03:04:43Z"
+            },
+            {
+              "kind": "membership_summary",
+              "id": 4091208,
+              "project_id": 1047444,
+              "project_name": "URL Shortener - Steve + Bebe",
+              "project_color": "8100ea",
+              "role": "owner"
+            },
+            {
+              "kind": "membership_summary",
+              "id": 4147894,
+              "project_id": 1059484,
+              "project_name": "App Review",
+              "project_color": "818182",
+              "role": "owner",
+              "last_viewed_at": "2014-04-14T07:40:01Z"
+            },
+            {
+              "kind": "membership_summary",
+              "id": 4151428,
+              "project_id": 1060110,
+              "project_name": "Evans user authentification",
+              "project_color": "ac3f65",
+              "role": "owner",
+              "last_viewed_at": "2014-04-28T16:55:17Z"
+            },
+            {
+              "kind": "membership_summary",
+              "id": 4186406,
+              "project_id": 1068006,
+              "project_name": "Salary Survey",
+              "project_color": "555555",
+              "role": "owner",
+              "last_viewed_at": "2014-04-28T03:49:25Z"
+            },
+            {
+              "kind": "membership_summary",
+              "id": 4191000,
+              "project_id": 1069174,
+              "project_name": "Floral Violet: Team CRUD gschool",
+              "project_color": "91a400",
+              "role": "owner",
+              "last_viewed_at": "2014-04-30T22:44:12Z"
+            },
+            {
+              "kind": "membership_summary",
+              "id": 4222010,
+              "project_id": 1075330,
+              "project_name": "Magelowitz and King TrackerHub",
+              "project_color": "d82b00",
+              "role": "owner",
+              "last_viewed_at": "2014-05-08T19:47:41Z"
+            }
+          ],
+          "email": "steven.magelowitz@gmail.com",
+          "receives_in_app_notifications": true
+        }
+    http_version: 
+  recorded_at: Thu, 08 May 2014 21:05:08 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects/1075330/stories?token=<TRACKER-TOKEN>
@@ -185,7 +345,7 @@ http_interactions:
       Status:
       - 200 OK
       X-Tracker-Project-Version:
-      - '30'
+      - '32'
       X-Tracker-Pagination-Total:
       - '7'
       X-Tracker-Pagination-Offset:
@@ -199,11 +359,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 51097f2fe302a17ce5de39449b1509eb
+      - 7279d8f3579e97f040cb38e968e49693
       X-Runtime:
-      - '0.036090'
+      - '0.031163'
       Date:
-      - Thu, 08 May 2014 17:07:54 GMT
+      - Thu, 08 May 2014 21:05:08 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -268,12 +428,12 @@ http_interactions:
             "kind": "story",
             "id": 70867118,
             "created_at": "2014-05-06T06:00:00Z",
-            "updated_at": "2014-05-08T16:48:36Z",
+            "updated_at": "2014-05-08T17:08:18Z",
             "estimate": 2,
             "story_type": "feature",
             "name": "As a user, I can view Tracker comments for a project",
             "description": "When I'm viewing a project\nThen I see all of the Tracker comments for that project across all stories\n",
-            "current_state": "finished",
+            "current_state": "delivered",
             "requested_by_id": 1256942,
             "project_id": 1075330,
             "url": "https://www.pivotaltracker.com/story/show/70867118",
@@ -289,21 +449,22 @@ http_interactions:
             "kind": "story",
             "id": 70867120,
             "created_at": "2014-05-06T06:00:00Z",
-            "updated_at": "2014-05-07T16:23:45Z",
+            "updated_at": "2014-05-08T17:09:57Z",
             "estimate": 2,
             "story_type": "feature",
             "name": "As a user, I can see the GitHub comments on a Tracker comment with a commit associated",
             "description": "When I'm viewing a project\nAnd there is a comment that came from the GitHub integration\nThen I see the GitHub comments below the Tracker comment\n\n---\nYou must use basic authentication (https://developer.github.com/v3/#basic-authentication) for this otherwise we'll go over our rate limit (https://developer.github.com/v3/#rate-limiting) for GitHub.  ",
-            "current_state": "unstarted",
+            "current_state": "started",
             "requested_by_id": 1256942,
             "project_id": 1075330,
             "url": "https://www.pivotaltracker.com/story/show/70867120",
             "owner_ids": [
-
+              1256942
             ],
             "labels": [
 
-            ]
+            ],
+            "owned_by_id": 1256942
           },
           {
             "kind": "story",
@@ -367,7 +528,7 @@ http_interactions:
           }
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 17:07:54 GMT
+  recorded_at: Thu, 08 May 2014 21:05:08 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects/1075330/stories?token=<TRACKER-TOKEN>
@@ -393,7 +554,7 @@ http_interactions:
       Status:
       - 200 OK
       X-Tracker-Project-Version:
-      - '30'
+      - '32'
       X-Tracker-Pagination-Total:
       - '7'
       X-Tracker-Pagination-Offset:
@@ -407,11 +568,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 22937271677afce08abfce2f709a6453
+      - 7fbbc594cd6e5aa605229d4cd234ae0b
       X-Runtime:
-      - '0.038655'
+      - '0.044588'
       Date:
-      - Thu, 08 May 2014 17:07:54 GMT
+      - Thu, 08 May 2014 21:05:08 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -476,12 +637,12 @@ http_interactions:
             "kind": "story",
             "id": 70867118,
             "created_at": "2014-05-06T06:00:00Z",
-            "updated_at": "2014-05-08T16:48:36Z",
+            "updated_at": "2014-05-08T17:08:18Z",
             "estimate": 2,
             "story_type": "feature",
             "name": "As a user, I can view Tracker comments for a project",
             "description": "When I'm viewing a project\nThen I see all of the Tracker comments for that project across all stories\n",
-            "current_state": "finished",
+            "current_state": "delivered",
             "requested_by_id": 1256942,
             "project_id": 1075330,
             "url": "https://www.pivotaltracker.com/story/show/70867118",
@@ -497,21 +658,22 @@ http_interactions:
             "kind": "story",
             "id": 70867120,
             "created_at": "2014-05-06T06:00:00Z",
-            "updated_at": "2014-05-07T16:23:45Z",
+            "updated_at": "2014-05-08T17:09:57Z",
             "estimate": 2,
             "story_type": "feature",
             "name": "As a user, I can see the GitHub comments on a Tracker comment with a commit associated",
             "description": "When I'm viewing a project\nAnd there is a comment that came from the GitHub integration\nThen I see the GitHub comments below the Tracker comment\n\n---\nYou must use basic authentication (https://developer.github.com/v3/#basic-authentication) for this otherwise we'll go over our rate limit (https://developer.github.com/v3/#rate-limiting) for GitHub.  ",
-            "current_state": "unstarted",
+            "current_state": "started",
             "requested_by_id": 1256942,
             "project_id": 1075330,
             "url": "https://www.pivotaltracker.com/story/show/70867120",
             "owner_ids": [
-
+              1256942
             ],
             "labels": [
 
-            ]
+            ],
+            "owned_by_id": 1256942
           },
           {
             "kind": "story",
@@ -575,7 +737,7 @@ http_interactions:
           }
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 17:07:54 GMT
+  recorded_at: Thu, 08 May 2014 21:05:09 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects/1075330/stories/70867114/comments?token=<TRACKER-TOKEN>
@@ -601,17 +763,17 @@ http_interactions:
       Status:
       - 200 OK
       X-Tracker-Project-Version:
-      - '30'
+      - '32'
       X-Ua-Compatible:
       - IE=Edge,chrome=1
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - c9a92b2501f6eaefb3947ed9b16850df
+      - d6b52a2709fd0f4fbbc26e5242326a0f
       X-Runtime:
-      - '0.030359'
+      - '0.034310'
       Date:
-      - Thu, 08 May 2014 17:07:55 GMT
+      - Thu, 08 May 2014 21:03:55 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -670,7 +832,7 @@ http_interactions:
           }
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 17:07:55 GMT
+  recorded_at: Thu, 08 May 2014 21:05:09 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects/1075330/stories/70867116/comments?token=<TRACKER-TOKEN>
@@ -696,17 +858,17 @@ http_interactions:
       Status:
       - 200 OK
       X-Tracker-Project-Version:
-      - '30'
+      - '32'
       X-Ua-Compatible:
       - IE=Edge,chrome=1
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - ca8ccfa3afb0b2203ca669f4e390db6b
+      - 9ba5bc4e8518210c323ecb67556cdea2
       X-Runtime:
-      - '0.036079'
+      - '0.030892'
       Date:
-      - Thu, 08 May 2014 17:07:55 GMT
+      - Thu, 08 May 2014 21:03:55 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -738,7 +900,7 @@ http_interactions:
           }
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 17:07:55 GMT
+  recorded_at: Thu, 08 May 2014 21:05:09 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects/1075330/stories/70867118/comments?token=<TRACKER-TOKEN>
@@ -764,17 +926,17 @@ http_interactions:
       Status:
       - 200 OK
       X-Tracker-Project-Version:
-      - '30'
+      - '32'
       X-Ua-Compatible:
       - IE=Edge,chrome=1
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 4fca6ffc46ca97ea6d1d2ac5958b3d59
+      - cc42c79863f154a3068bcb86fd174ae7
       X-Runtime:
-      - '0.033119'
+      - '0.032631'
       Date:
-      - Thu, 08 May 2014 17:07:55 GMT
+      - Thu, 08 May 2014 21:05:09 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -835,7 +997,7 @@ http_interactions:
           }
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 17:07:55 GMT
+  recorded_at: Thu, 08 May 2014 21:05:09 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects/1075330/stories/70867120/comments?token=<TRACKER-TOKEN>
@@ -861,17 +1023,17 @@ http_interactions:
       Status:
       - 200 OK
       X-Tracker-Project-Version:
-      - '30'
+      - '32'
       X-Ua-Compatible:
       - IE=Edge,chrome=1
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 728cff6f1797a9cd356ac73f0dad97f5
+      - 62bbecbb38461093616cd44457918002
       X-Runtime:
-      - '0.033147'
+      - '0.032751'
       Date:
-      - Thu, 08 May 2014 17:06:42 GMT
+      - Thu, 08 May 2014 21:05:09 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -893,7 +1055,7 @@ http_interactions:
 
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 17:07:55 GMT
+  recorded_at: Thu, 08 May 2014 21:05:10 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects/1075330/stories/70867122/comments?token=<TRACKER-TOKEN>
@@ -919,17 +1081,17 @@ http_interactions:
       Status:
       - 200 OK
       X-Tracker-Project-Version:
-      - '30'
+      - '32'
       X-Ua-Compatible:
       - IE=Edge,chrome=1
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 41fb83265176dc6df93dd3ed20c745e6
+      - 437d2bdf45388a6d71ec3ecb46127b83
       X-Runtime:
-      - '0.029811'
+      - '0.044722'
       Date:
-      - Thu, 08 May 2014 17:07:55 GMT
+      - Thu, 08 May 2014 21:05:10 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -951,7 +1113,7 @@ http_interactions:
 
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 17:07:56 GMT
+  recorded_at: Thu, 08 May 2014 21:05:10 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects/1075330/stories/70867124/comments?token=<TRACKER-TOKEN>
@@ -977,17 +1139,17 @@ http_interactions:
       Status:
       - 200 OK
       X-Tracker-Project-Version:
-      - '30'
+      - '32'
       X-Ua-Compatible:
       - IE=Edge,chrome=1
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 2a3b601880ad5e00cc8b483c93df94d7
+      - 03c7706c894b8a4482bc6f56357213c1
       X-Runtime:
-      - '0.035959'
+      - '0.032820'
       Date:
-      - Thu, 08 May 2014 17:07:56 GMT
+      - Thu, 08 May 2014 21:05:10 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -1009,7 +1171,7 @@ http_interactions:
 
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 17:07:56 GMT
+  recorded_at: Thu, 08 May 2014 21:05:10 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects/1075330/stories/70867126/comments?token=<TRACKER-TOKEN>
@@ -1035,17 +1197,17 @@ http_interactions:
       Status:
       - 200 OK
       X-Tracker-Project-Version:
-      - '30'
+      - '32'
       X-Ua-Compatible:
       - IE=Edge,chrome=1
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 9a851aada105eeaf5aa300605718e5fe
+      - df4408ebf05cebc9b14bc67c113e6865
       X-Runtime:
-      - '0.031012'
+      - '0.030537'
       Date:
-      - Thu, 08 May 2014 17:07:56 GMT
+      - Thu, 08 May 2014 21:05:10 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -1067,5 +1229,1015 @@ http_interactions:
 
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 17:07:56 GMT
+  recorded_at: Thu, 08 May 2014 21:05:10 GMT
+- request:
+    method: get
+    uri: https://www.pivotaltracker.com/services/v5/projects/1075330/stories?token=<TRACKER-TOKEN>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Tracker-Project-Version:
+      - '32'
+      X-Tracker-Pagination-Total:
+      - '7'
+      X-Tracker-Pagination-Offset:
+      - '0'
+      X-Tracker-Pagination-Limit:
+      - '100'
+      X-Tracker-Pagination-Returned:
+      - '7'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - f97436176e522c05c2f2f610b4e5c7fa
+      X-Runtime:
+      - '0.038221'
+      Date:
+      - Thu, 08 May 2014 21:05:10 GMT
+      X-Rack-Cache:
+      - miss
+      X-Powered-By:
+      - Phusion Passenger 4.0.41
+      Server:
+      - nginx/1.6.0 + Phusion Passenger 4.0.41
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Headers:
+      - X-TrackerToken,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Tracker-Warn-Unless-Project-Version-Is
+    body:
+      encoding: UTF-8
+      string: |-
+        [
+          {
+            "kind": "story",
+            "id": 70867114,
+            "created_at": "2014-05-06T06:00:00Z",
+            "updated_at": "2014-05-07T22:33:44Z",
+            "estimate": 2,
+            "story_type": "feature",
+            "name": "As a user, I can view all of my projects",
+            "description": "Given I'm on the homepage\nWhen I click on \"View Projects\"\nI see a list of all projects\n\n---\nUse your own API token. Make sure you don't commit it (dotenv-rails). (https://www.pivotaltracker.com/help/api#Basics)",
+            "current_state": "delivered",
+            "requested_by_id": 1256942,
+            "project_id": 1075330,
+            "url": "https://www.pivotaltracker.com/story/show/70867114",
+            "owner_ids": [
+              1256898
+            ],
+            "labels": [
+
+            ],
+            "owned_by_id": 1256898
+          },
+          {
+            "kind": "story",
+            "id": 70867116,
+            "created_at": "2014-05-06T06:00:00Z",
+            "updated_at": "2014-05-07T21:59:51Z",
+            "estimate": 1,
+            "story_type": "feature",
+            "name": "As a user, I can view all of the stories for a project",
+            "description": "Given I'm go to the homepage\nWhen I click on a project\nI see a list of all of that projects stories",
+            "current_state": "delivered",
+            "requested_by_id": 1256942,
+            "project_id": 1075330,
+            "url": "https://www.pivotaltracker.com/story/show/70867116",
+            "owner_ids": [
+              1256942
+            ],
+            "labels": [
+
+            ],
+            "owned_by_id": 1256942
+          },
+          {
+            "kind": "story",
+            "id": 70867118,
+            "created_at": "2014-05-06T06:00:00Z",
+            "updated_at": "2014-05-08T17:08:18Z",
+            "estimate": 2,
+            "story_type": "feature",
+            "name": "As a user, I can view Tracker comments for a project",
+            "description": "When I'm viewing a project\nThen I see all of the Tracker comments for that project across all stories\n",
+            "current_state": "delivered",
+            "requested_by_id": 1256942,
+            "project_id": 1075330,
+            "url": "https://www.pivotaltracker.com/story/show/70867118",
+            "owner_ids": [
+              1256942
+            ],
+            "labels": [
+
+            ],
+            "owned_by_id": 1256942
+          },
+          {
+            "kind": "story",
+            "id": 70867120,
+            "created_at": "2014-05-06T06:00:00Z",
+            "updated_at": "2014-05-08T17:09:57Z",
+            "estimate": 2,
+            "story_type": "feature",
+            "name": "As a user, I can see the GitHub comments on a Tracker comment with a commit associated",
+            "description": "When I'm viewing a project\nAnd there is a comment that came from the GitHub integration\nThen I see the GitHub comments below the Tracker comment\n\n---\nYou must use basic authentication (https://developer.github.com/v3/#basic-authentication) for this otherwise we'll go over our rate limit (https://developer.github.com/v3/#rate-limiting) for GitHub.  ",
+            "current_state": "started",
+            "requested_by_id": 1256942,
+            "project_id": 1075330,
+            "url": "https://www.pivotaltracker.com/story/show/70867120",
+            "owner_ids": [
+              1256942
+            ],
+            "labels": [
+
+            ],
+            "owned_by_id": 1256942
+          },
+          {
+            "kind": "story",
+            "id": 70867122,
+            "created_at": "2014-05-06T06:00:00Z",
+            "updated_at": "2014-05-07T16:23:45Z",
+            "estimate": 3,
+            "story_type": "feature",
+            "name": "As a user, I can post a new GitHub comment for the a tracker commit comment (basic auth)",
+            "description": "Given I'm viewing a project\nAnd there is a commit comment\nWhen I click on \"Add Comment\"\nAnd I fill out the form\nThen I see my GitHub comment added to the commit in GitHub\nAnd displayed on the project page",
+            "current_state": "unstarted",
+            "requested_by_id": 1256942,
+            "project_id": 1075330,
+            "url": "https://www.pivotaltracker.com/story/show/70867122",
+            "owner_ids": [
+
+            ],
+            "labels": [
+
+            ]
+          },
+          {
+            "kind": "story",
+            "id": 70867124,
+            "created_at": "2014-05-06T06:00:00Z",
+            "updated_at": "2014-05-07T16:23:45Z",
+            "estimate": 2,
+            "story_type": "feature",
+            "name": "As a user, I can authenticate with GitHub",
+            "description": "When I visit the homepage\nAnd click on \"Log in with GitHub\"\nThen I'm logged in with github\nAnd I see my username in the nav bar\n\nPlease use omniauth gem!\nhttps://github.com/intridea/omniauth",
+            "current_state": "unstarted",
+            "requested_by_id": 1256942,
+            "project_id": 1075330,
+            "url": "https://www.pivotaltracker.com/story/show/70867124",
+            "owner_ids": [
+
+            ],
+            "labels": [
+
+            ]
+          },
+          {
+            "kind": "story",
+            "id": 70867126,
+            "created_at": "2014-05-06T06:00:00Z",
+            "updated_at": "2014-05-07T16:23:45Z",
+            "estimate": 3,
+            "story_type": "feature",
+            "name": "As an authenticated user, I can post a commit comment for my GitHub account",
+            "description": "Given I'm authenticated with GitHub\nAnd I'm viewing a project\nWhen I click on \"Add Comment\"\nAnd I fill out the Form\nThen I see my GitHub comment added to the commit created by my account\nAnd I see it on the project page",
+            "current_state": "unstarted",
+            "requested_by_id": 1256942,
+            "project_id": 1075330,
+            "url": "https://www.pivotaltracker.com/story/show/70867126",
+            "owner_ids": [
+
+            ],
+            "labels": [
+
+            ]
+          }
+        ]
+    http_version: 
+  recorded_at: Thu, 08 May 2014 21:05:11 GMT
+- request:
+    method: get
+    uri: https://www.pivotaltracker.com/services/v5/projects/1075330/stories/70867114/comments?token=<TRACKER-TOKEN>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Tracker-Project-Version:
+      - '32'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - fd0dd562096c403930ea2a886785fccd
+      X-Runtime:
+      - '0.034951'
+      Date:
+      - Thu, 08 May 2014 21:03:57 GMT
+      X-Rack-Cache:
+      - miss
+      X-Powered-By:
+      - Phusion Passenger 4.0.41
+      Server:
+      - nginx/1.6.0 + Phusion Passenger 4.0.41
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Headers:
+      - X-TrackerToken,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Tracker-Warn-Unless-Project-Version-Is
+    body:
+      encoding: UTF-8
+      string: |-
+        [
+          {
+            "kind": "comment",
+            "id": 68640582,
+            "story_id": 70867114,
+            "text": "This is a test comment on the first story",
+            "person_id": 534749,
+            "created_at": "2014-05-06T00:00:00Z",
+            "updated_at": "2014-05-07T16:23:45Z"
+          },
+          {
+            "kind": "comment",
+            "id": 68640584,
+            "story_id": 70867114,
+            "text": "This is a second test comment on the first story",
+            "person_id": 534749,
+            "created_at": "2014-05-06T00:00:00Z",
+            "updated_at": "2014-05-07T16:23:45Z"
+          },
+          {
+            "kind": "comment",
+            "id": 68677128,
+            "story_id": 70867114,
+            "text": "Commit by Steven Magelowitz\nhttps://github.com/stevepm/trackerhub-app/commit/9935d4ac5d0ea9bf59bc1f6f0dff35b5a0c50879\n\n[#70867114] User is able to view all projects.\n\nSigned-off-by: Gus King <gusssk@gmail.com>",
+            "person_id": 1256942,
+            "created_at": "2014-05-07T21:04:44Z",
+            "updated_at": "2014-05-07T21:04:44Z",
+            "commit_identifier": "9935d4ac5d0ea9bf59bc1f6f0dff35b5a0c50879",
+            "commit_type": "github"
+          },
+          {
+            "kind": "comment",
+            "id": 68686112,
+            "story_id": 70867114,
+            "text": "Heroku link in readme please so I can do acceptance.",
+            "person_id": 1234268,
+            "created_at": "2014-05-07T22:33:44Z",
+            "updated_at": "2014-05-07T22:33:44Z"
+          }
+        ]
+    http_version: 
+  recorded_at: Thu, 08 May 2014 21:05:11 GMT
+- request:
+    method: get
+    uri: https://www.pivotaltracker.com/services/v5/projects/1075330/stories/70867116/comments?token=<TRACKER-TOKEN>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Tracker-Project-Version:
+      - '32'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - b3a003ec0bd56b9e5131e3f9616d0b4b
+      X-Runtime:
+      - '0.037209'
+      Date:
+      - Thu, 08 May 2014 21:05:11 GMT
+      X-Rack-Cache:
+      - miss
+      X-Powered-By:
+      - Phusion Passenger 4.0.41
+      Server:
+      - nginx/1.6.0 + Phusion Passenger 4.0.41
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Headers:
+      - X-TrackerToken,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Tracker-Warn-Unless-Project-Version-Is
+    body:
+      encoding: UTF-8
+      string: |-
+        [
+          {
+            "kind": "comment",
+            "id": 68682908,
+            "story_id": 70867116,
+            "text": "Commit by Steven Magelowitz\nhttps://github.com/stevepm/trackerhub-app/commit/0633a8c0a11e61f72e4f715d9d51e49f5b4ceada\n\n[#70867116] User can click on a project and will see a list of all stories.\n\nSigned-off-by: Gus King <gusssk@gmail.com>",
+            "person_id": 1256942,
+            "created_at": "2014-05-07T21:59:43Z",
+            "updated_at": "2014-05-07T21:59:43Z",
+            "commit_identifier": "0633a8c0a11e61f72e4f715d9d51e49f5b4ceada",
+            "commit_type": "github"
+          }
+        ]
+    http_version: 
+  recorded_at: Thu, 08 May 2014 21:05:11 GMT
+- request:
+    method: get
+    uri: https://www.pivotaltracker.com/services/v5/projects/1075330/stories/70867118/comments?token=<TRACKER-TOKEN>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Tracker-Project-Version:
+      - '32'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - f8d0fc777edbe1645fdc0c13ae6c38c6
+      X-Runtime:
+      - '0.040323'
+      Date:
+      - Thu, 08 May 2014 21:03:58 GMT
+      X-Rack-Cache:
+      - miss
+      X-Powered-By:
+      - Phusion Passenger 4.0.41
+      Server:
+      - nginx/1.6.0 + Phusion Passenger 4.0.41
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Headers:
+      - X-TrackerToken,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Tracker-Warn-Unless-Project-Version-Is
+    body:
+      encoding: UTF-8
+      string: |-
+        [
+          {
+            "kind": "comment",
+            "id": 68640586,
+            "story_id": 70867118,
+            "text": "This is a comment on the comment story",
+            "person_id": 534749,
+            "created_at": "2014-05-06T00:00:00Z",
+            "updated_at": "2014-05-07T16:23:45Z"
+          },
+          {
+            "kind": "comment",
+            "id": 68684910,
+            "story_id": 70867118,
+            "text": "What  a great comment",
+            "person_id": 1256942,
+            "created_at": "2014-05-07T22:19:39Z",
+            "updated_at": "2014-05-07T22:19:39Z"
+          },
+          {
+            "kind": "comment",
+            "id": 68688408,
+            "story_id": 70867118,
+            "text": "Commit by Steven Magelowitz\nhttps://github.com/stevepm/trackerhub-app/commit/3b3cb1566251005ef65a92a59ed6ba77e4c90479\n\n[#70867118] User is able to see all of the tracker comments for that project.\n\nSigned-off-by: Gus King <gusssk@gmail.com>",
+            "person_id": 1256942,
+            "created_at": "2014-05-07T23:03:57Z",
+            "updated_at": "2014-05-07T23:03:57Z",
+            "commit_identifier": "3b3cb1566251005ef65a92a59ed6ba77e4c90479",
+            "commit_type": "github"
+          },
+          {
+            "kind": "comment",
+            "id": 68688452,
+            "story_id": 70867118,
+            "text": "Commit by stevepm\nhttps://github.com/stevepm/trackerhub-app/commit/69245350b031c5573fe2b6da9dad4514f5625f0d\n\nMerge pull request #2 from stevepm/pivotal_projects\n\n[#70867118] User is able to see all of the tracker comments for that pro...",
+            "person_id": 1256942,
+            "created_at": "2014-05-07T23:04:27Z",
+            "updated_at": "2014-05-07T23:04:27Z",
+            "commit_identifier": "69245350b031c5573fe2b6da9dad4514f5625f0d",
+            "commit_type": "github"
+          }
+        ]
+    http_version: 
+  recorded_at: Thu, 08 May 2014 21:05:11 GMT
+- request:
+    method: get
+    uri: https://www.pivotaltracker.com/services/v5/projects/1075330/stories/70867120/comments?token=<TRACKER-TOKEN>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Tracker-Project-Version:
+      - '32'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 1a9f4a364724e13ca6d131902fad4688
+      X-Runtime:
+      - '0.032247'
+      Date:
+      - Thu, 08 May 2014 21:03:58 GMT
+      X-Rack-Cache:
+      - miss
+      X-Powered-By:
+      - Phusion Passenger 4.0.41
+      Server:
+      - nginx/1.6.0 + Phusion Passenger 4.0.41
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Headers:
+      - X-TrackerToken,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Tracker-Warn-Unless-Project-Version-Is
+    body:
+      encoding: UTF-8
+      string: |-
+        [
+
+        ]
+    http_version: 
+  recorded_at: Thu, 08 May 2014 21:05:12 GMT
+- request:
+    method: get
+    uri: https://www.pivotaltracker.com/services/v5/projects/1075330/stories/70867122/comments?token=<TRACKER-TOKEN>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Tracker-Project-Version:
+      - '32'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - f50cdd2fd035254ab82e65c0fb14d120
+      X-Runtime:
+      - '0.049805'
+      Date:
+      - Thu, 08 May 2014 21:05:12 GMT
+      X-Rack-Cache:
+      - miss
+      X-Powered-By:
+      - Phusion Passenger 4.0.41
+      Server:
+      - nginx/1.6.0 + Phusion Passenger 4.0.41
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Headers:
+      - X-TrackerToken,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Tracker-Warn-Unless-Project-Version-Is
+    body:
+      encoding: UTF-8
+      string: |-
+        [
+
+        ]
+    http_version: 
+  recorded_at: Thu, 08 May 2014 21:05:12 GMT
+- request:
+    method: get
+    uri: https://www.pivotaltracker.com/services/v5/projects/1075330/stories/70867124/comments?token=<TRACKER-TOKEN>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Tracker-Project-Version:
+      - '32'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 7c8ae5923fe9ae5ae50dbe61a5a93dbb
+      X-Runtime:
+      - '0.036641'
+      Date:
+      - Thu, 08 May 2014 21:03:59 GMT
+      X-Rack-Cache:
+      - miss
+      X-Powered-By:
+      - Phusion Passenger 4.0.41
+      Server:
+      - nginx/1.6.0 + Phusion Passenger 4.0.41
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Headers:
+      - X-TrackerToken,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Tracker-Warn-Unless-Project-Version-Is
+    body:
+      encoding: UTF-8
+      string: |-
+        [
+
+        ]
+    http_version: 
+  recorded_at: Thu, 08 May 2014 21:05:12 GMT
+- request:
+    method: get
+    uri: https://www.pivotaltracker.com/services/v5/projects/1075330/stories/70867126/comments?token=<TRACKER-TOKEN>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Tracker-Project-Version:
+      - '32'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - fcaf9ee4f27032797ae26499257c12d4
+      X-Runtime:
+      - '0.034008'
+      Date:
+      - Thu, 08 May 2014 21:03:59 GMT
+      X-Rack-Cache:
+      - miss
+      X-Powered-By:
+      - Phusion Passenger 4.0.41
+      Server:
+      - nginx/1.6.0 + Phusion Passenger 4.0.41
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Headers:
+      - X-TrackerToken,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Tracker-Warn-Unless-Project-Version-Is
+    body:
+      encoding: UTF-8
+      string: |-
+        [
+
+        ]
+    http_version: 
+  recorded_at: Thu, 08 May 2014 21:05:13 GMT
+- request:
+    method: get
+    uri: https://api.github.com/repos/stevepm/trackerhub-app/commits/9935d4ac5d0ea9bf59bc1f6f0dff35b5a0c50879/comments
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - Octokit Ruby Gem 3.1.0
+      Authorization:
+      - token <GITHUB-TOKEN>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Thu, 08 May 2014 21:05:13 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4931'
+      X-Ratelimit-Reset:
+      - '1399583983'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Etag:
+      - '"a16c17a97a07be4f366e9add183497c2"'
+      X-Oauth-Scopes:
+      - gist, repo, user
+      X-Accepted-Oauth-Scopes:
+      - ''
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Link:
+      - <https://api.github.com/repositories/19546996/commits/9935d4ac5d0ea9bf59bc1f6f0dff35b5a0c50879/comments?page=0>;
+        rel="last"
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      Content-Security-Policy:
+      - default-src 'none'
+      Content-Length:
+      - '2'
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Github-Request-Id:
+      - AD0E15D1:1FFE:A6813B0:536BF189
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Content-Type-Options:
+      - nosniff
+      X-Served-By:
+      - d818ddef80f4c7d10683dd483558952a
+    body:
+      encoding: UTF-8
+      string: "[]"
+    http_version: 
+  recorded_at: Thu, 08 May 2014 21:05:13 GMT
+- request:
+    method: get
+    uri: https://api.github.com/repos/stevepm/trackerhub-app/commits/0633a8c0a11e61f72e4f715d9d51e49f5b4ceada/comments
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - Octokit Ruby Gem 3.1.0
+      Authorization:
+      - token <GITHUB-TOKEN>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Thu, 08 May 2014 21:05:13 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4930'
+      X-Ratelimit-Reset:
+      - '1399583983'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Etag:
+      - '"a16c17a97a07be4f366e9add183497c2"'
+      X-Oauth-Scopes:
+      - gist, repo, user
+      X-Accepted-Oauth-Scopes:
+      - ''
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Link:
+      - <https://api.github.com/repositories/19546996/commits/0633a8c0a11e61f72e4f715d9d51e49f5b4ceada/comments?page=0>;
+        rel="last"
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      Content-Security-Policy:
+      - default-src 'none'
+      Content-Length:
+      - '2'
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Github-Request-Id:
+      - AD0E15D1:1FFD:77EC43E:536BF189
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Content-Type-Options:
+      - nosniff
+      X-Served-By:
+      - 132026e9262a0093e437f99db5f1e499
+    body:
+      encoding: UTF-8
+      string: "[]"
+    http_version: 
+  recorded_at: Thu, 08 May 2014 21:05:14 GMT
+- request:
+    method: get
+    uri: https://api.github.com/repos/stevepm/trackerhub-app/commits/3b3cb1566251005ef65a92a59ed6ba77e4c90479/comments
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - Octokit Ruby Gem 3.1.0
+      Authorization:
+      - token <GITHUB-TOKEN>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Thu, 08 May 2014 21:05:14 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4929'
+      X-Ratelimit-Reset:
+      - '1399583983'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Etag:
+      - '"7b28f894f13b319f93b11123fcdd2ece"'
+      X-Oauth-Scopes:
+      - gist, repo, user
+      X-Accepted-Oauth-Scopes:
+      - ''
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3; format=json
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      Content-Security-Policy:
+      - default-src 'none'
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Github-Request-Id:
+      - AD0E15D1:1FFB:26C9716:536BF18A
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Content-Type-Options:
+      - nosniff
+      X-Served-By:
+      - 3061975e1f37121b3751604ad153c687
+    body:
+      encoding: UTF-8
+      string: '[{"url":"https://api.github.com/repos/stevepm/trackerhub-app/comments/6258694","html_url":"https://github.com/stevepm/trackerhub-app/commit/3b3cb1566251005ef65a92a59ed6ba77e4c90479#commitcomment-6258694","id":6258694,"user":{"login":"stevepm","id":431557,"avatar_url":"https://avatars.githubusercontent.com/u/431557?","gravatar_id":"08b96ab0385e9023d3b37f77e55258b3","url":"https://api.github.com/users/stevepm","html_url":"https://github.com/stevepm","followers_url":"https://api.github.com/users/stevepm/followers","following_url":"https://api.github.com/users/stevepm/following{/other_user}","gists_url":"https://api.github.com/users/stevepm/gists{/gist_id}","starred_url":"https://api.github.com/users/stevepm/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/stevepm/subscriptions","organizations_url":"https://api.github.com/users/stevepm/orgs","repos_url":"https://api.github.com/users/stevepm/repos","events_url":"https://api.github.com/users/stevepm/events{/privacy}","received_events_url":"https://api.github.com/users/stevepm/received_events","type":"User","site_admin":false},"position":null,"line":null,"path":null,"commit_id":"3b3cb1566251005ef65a92a59ed6ba77e4c90479","created_at":"2014-05-08T17:12:03Z","updated_at":"2014-05-08T17:12:03Z","body":"test
+        comment"}]'
+    http_version: 
+  recorded_at: Thu, 08 May 2014 21:05:14 GMT
+- request:
+    method: get
+    uri: https://api.github.com/repos/stevepm/trackerhub-app/commits/69245350b031c5573fe2b6da9dad4514f5625f0d/comments
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - Octokit Ruby Gem 3.1.0
+      Authorization:
+      - token <GITHUB-TOKEN>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Thu, 08 May 2014 21:05:14 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4928'
+      X-Ratelimit-Reset:
+      - '1399583983'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Etag:
+      - '"1ab68d56b1da4ce4c60bba464e654c9f"'
+      X-Oauth-Scopes:
+      - gist, repo, user
+      X-Accepted-Oauth-Scopes:
+      - ''
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3; format=json
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      Content-Security-Policy:
+      - default-src 'none'
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Github-Request-Id:
+      - AD0E15D1:1FFD:77EC51D:536BF18A
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Content-Type-Options:
+      - nosniff
+      X-Served-By:
+      - 971af40390ac4398fcdd45c8dab0fbe7
+    body:
+      encoding: UTF-8
+      string: '[{"url":"https://api.github.com/repos/stevepm/trackerhub-app/comments/6258703","html_url":"https://github.com/stevepm/trackerhub-app/commit/69245350b031c5573fe2b6da9dad4514f5625f0d#commitcomment-6258703","id":6258703,"user":{"login":"stevepm","id":431557,"avatar_url":"https://avatars.githubusercontent.com/u/431557?","gravatar_id":"08b96ab0385e9023d3b37f77e55258b3","url":"https://api.github.com/users/stevepm","html_url":"https://github.com/stevepm","followers_url":"https://api.github.com/users/stevepm/followers","following_url":"https://api.github.com/users/stevepm/following{/other_user}","gists_url":"https://api.github.com/users/stevepm/gists{/gist_id}","starred_url":"https://api.github.com/users/stevepm/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/stevepm/subscriptions","organizations_url":"https://api.github.com/users/stevepm/orgs","repos_url":"https://api.github.com/users/stevepm/repos","events_url":"https://api.github.com/users/stevepm/events{/privacy}","received_events_url":"https://api.github.com/users/stevepm/received_events","type":"User","site_admin":false},"position":null,"line":null,"path":null,"commit_id":"69245350b031c5573fe2b6da9dad4514f5625f0d","created_at":"2014-05-08T17:12:39Z","updated_at":"2014-05-08T17:12:39Z","body":"gus
+        king comment test"},{"url":"https://api.github.com/repos/stevepm/trackerhub-app/comments/6259187","html_url":"https://github.com/stevepm/trackerhub-app/commit/69245350b031c5573fe2b6da9dad4514f5625f0d#commitcomment-6259187","id":6259187,"user":{"login":"stevepm","id":431557,"avatar_url":"https://avatars.githubusercontent.com/u/431557?","gravatar_id":"08b96ab0385e9023d3b37f77e55258b3","url":"https://api.github.com/users/stevepm","html_url":"https://github.com/stevepm","followers_url":"https://api.github.com/users/stevepm/followers","following_url":"https://api.github.com/users/stevepm/following{/other_user}","gists_url":"https://api.github.com/users/stevepm/gists{/gist_id}","starred_url":"https://api.github.com/users/stevepm/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/stevepm/subscriptions","organizations_url":"https://api.github.com/users/stevepm/orgs","repos_url":"https://api.github.com/users/stevepm/repos","events_url":"https://api.github.com/users/stevepm/events{/privacy}","received_events_url":"https://api.github.com/users/stevepm/received_events","type":"User","site_admin":false},"position":null,"line":null,"path":null,"commit_id":"69245350b031c5573fe2b6da9dad4514f5625f0d","created_at":"2014-05-08T17:41:38Z","updated_at":"2014-05-08T17:41:38Z","body":"test
+        comment"}]'
+    http_version: 
+  recorded_at: Thu, 08 May 2014 21:05:14 GMT
 recorded_with: VCR 2.9.0
