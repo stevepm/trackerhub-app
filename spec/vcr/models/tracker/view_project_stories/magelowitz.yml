@@ -1,0 +1,211 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.pivotaltracker.com/services/v5/projects/1075330/stories?token=<TRACKER-TOKEN>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Tracker-Project-Version:
+      - '30'
+      X-Tracker-Pagination-Total:
+      - '7'
+      X-Tracker-Pagination-Offset:
+      - '0'
+      X-Tracker-Pagination-Limit:
+      - '100'
+      X-Tracker-Pagination-Returned:
+      - '7'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 0e8b79c7ef561ea94ceff327490d82b4
+      X-Runtime:
+      - '0.035236'
+      Date:
+      - Thu, 08 May 2014 17:07:53 GMT
+      X-Rack-Cache:
+      - miss
+      X-Powered-By:
+      - Phusion Passenger 4.0.41
+      Server:
+      - nginx/1.6.0 + Phusion Passenger 4.0.41
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Headers:
+      - X-TrackerToken,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Tracker-Warn-Unless-Project-Version-Is
+    body:
+      encoding: UTF-8
+      string: |-
+        [
+          {
+            "kind": "story",
+            "id": 70867114,
+            "created_at": "2014-05-06T06:00:00Z",
+            "updated_at": "2014-05-07T22:33:44Z",
+            "estimate": 2,
+            "story_type": "feature",
+            "name": "As a user, I can view all of my projects",
+            "description": "Given I'm on the homepage\nWhen I click on \"View Projects\"\nI see a list of all projects\n\n---\nUse your own API token. Make sure you don't commit it (dotenv-rails). (https://www.pivotaltracker.com/help/api#Basics)",
+            "current_state": "delivered",
+            "requested_by_id": 1256942,
+            "project_id": 1075330,
+            "url": "https://www.pivotaltracker.com/story/show/70867114",
+            "owner_ids": [
+              1256898
+            ],
+            "labels": [
+
+            ],
+            "owned_by_id": 1256898
+          },
+          {
+            "kind": "story",
+            "id": 70867116,
+            "created_at": "2014-05-06T06:00:00Z",
+            "updated_at": "2014-05-07T21:59:51Z",
+            "estimate": 1,
+            "story_type": "feature",
+            "name": "As a user, I can view all of the stories for a project",
+            "description": "Given I'm go to the homepage\nWhen I click on a project\nI see a list of all of that projects stories",
+            "current_state": "delivered",
+            "requested_by_id": 1256942,
+            "project_id": 1075330,
+            "url": "https://www.pivotaltracker.com/story/show/70867116",
+            "owner_ids": [
+              1256942
+            ],
+            "labels": [
+
+            ],
+            "owned_by_id": 1256942
+          },
+          {
+            "kind": "story",
+            "id": 70867118,
+            "created_at": "2014-05-06T06:00:00Z",
+            "updated_at": "2014-05-08T16:48:36Z",
+            "estimate": 2,
+            "story_type": "feature",
+            "name": "As a user, I can view Tracker comments for a project",
+            "description": "When I'm viewing a project\nThen I see all of the Tracker comments for that project across all stories\n",
+            "current_state": "finished",
+            "requested_by_id": 1256942,
+            "project_id": 1075330,
+            "url": "https://www.pivotaltracker.com/story/show/70867118",
+            "owner_ids": [
+              1256942
+            ],
+            "labels": [
+
+            ],
+            "owned_by_id": 1256942
+          },
+          {
+            "kind": "story",
+            "id": 70867120,
+            "created_at": "2014-05-06T06:00:00Z",
+            "updated_at": "2014-05-07T16:23:45Z",
+            "estimate": 2,
+            "story_type": "feature",
+            "name": "As a user, I can see the GitHub comments on a Tracker comment with a commit associated",
+            "description": "When I'm viewing a project\nAnd there is a comment that came from the GitHub integration\nThen I see the GitHub comments below the Tracker comment\n\n---\nYou must use basic authentication (https://developer.github.com/v3/#basic-authentication) for this otherwise we'll go over our rate limit (https://developer.github.com/v3/#rate-limiting) for GitHub.  ",
+            "current_state": "unstarted",
+            "requested_by_id": 1256942,
+            "project_id": 1075330,
+            "url": "https://www.pivotaltracker.com/story/show/70867120",
+            "owner_ids": [
+
+            ],
+            "labels": [
+
+            ]
+          },
+          {
+            "kind": "story",
+            "id": 70867122,
+            "created_at": "2014-05-06T06:00:00Z",
+            "updated_at": "2014-05-07T16:23:45Z",
+            "estimate": 3,
+            "story_type": "feature",
+            "name": "As a user, I can post a new GitHub comment for the a tracker commit comment (basic auth)",
+            "description": "Given I'm viewing a project\nAnd there is a commit comment\nWhen I click on \"Add Comment\"\nAnd I fill out the form\nThen I see my GitHub comment added to the commit in GitHub\nAnd displayed on the project page",
+            "current_state": "unstarted",
+            "requested_by_id": 1256942,
+            "project_id": 1075330,
+            "url": "https://www.pivotaltracker.com/story/show/70867122",
+            "owner_ids": [
+
+            ],
+            "labels": [
+
+            ]
+          },
+          {
+            "kind": "story",
+            "id": 70867124,
+            "created_at": "2014-05-06T06:00:00Z",
+            "updated_at": "2014-05-07T16:23:45Z",
+            "estimate": 2,
+            "story_type": "feature",
+            "name": "As a user, I can authenticate with GitHub",
+            "description": "When I visit the homepage\nAnd click on \"Log in with GitHub\"\nThen I'm logged in with github\nAnd I see my username in the nav bar\n\nPlease use omniauth gem!\nhttps://github.com/intridea/omniauth",
+            "current_state": "unstarted",
+            "requested_by_id": 1256942,
+            "project_id": 1075330,
+            "url": "https://www.pivotaltracker.com/story/show/70867124",
+            "owner_ids": [
+
+            ],
+            "labels": [
+
+            ]
+          },
+          {
+            "kind": "story",
+            "id": 70867126,
+            "created_at": "2014-05-06T06:00:00Z",
+            "updated_at": "2014-05-07T16:23:45Z",
+            "estimate": 3,
+            "story_type": "feature",
+            "name": "As an authenticated user, I can post a commit comment for my GitHub account",
+            "description": "Given I'm authenticated with GitHub\nAnd I'm viewing a project\nWhen I click on \"Add Comment\"\nAnd I fill out the Form\nThen I see my GitHub comment added to the commit created by my account\nAnd I see it on the project page",
+            "current_state": "unstarted",
+            "requested_by_id": 1256942,
+            "project_id": 1075330,
+            "url": "https://www.pivotaltracker.com/story/show/70867126",
+            "owner_ids": [
+
+            ],
+            "labels": [
+
+            ]
+          }
+        ]
+    http_version: 
+  recorded_at: Thu, 08 May 2014 17:07:54 GMT
+recorded_with: VCR 2.9.0

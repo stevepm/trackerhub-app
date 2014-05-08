@@ -1,0 +1,163 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.pivotaltracker.com/services/v5/me?token=<TRACKER-TOKEN>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 16c6927948954801ca5af7c2bed3f21d
+      X-Runtime:
+      - '0.052547'
+      Date:
+      - Thu, 08 May 2014 17:07:56 GMT
+      X-Rack-Cache:
+      - miss
+      X-Powered-By:
+      - Phusion Passenger 4.0.41
+      Server:
+      - nginx/1.6.0 + Phusion Passenger 4.0.41
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Headers:
+      - X-TrackerToken,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Tracker-Warn-Unless-Project-Version-Is
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "kind": "me",
+          "id": 1256942,
+          "name": "Steven Magelowitz",
+          "initials": "sm",
+          "username": "stevenmagelowitz",
+          "time_zone": {
+            "kind": "time_zone",
+            "olson_name": "America/Los_Angeles",
+            "offset": "-07:00"
+          },
+          "api_token": "<TRACKER-TOKEN>",
+          "has_google_identity": false,
+          "projects": [
+            {
+              "kind": "membership_summary",
+              "id": 3967062,
+              "project_id": 966426,
+              "project_name": "gSchoolMarch2014Curriculum",
+              "project_color": "cccccc",
+              "role": "viewer",
+              "last_viewed_at": "2014-05-07T16:22:43Z"
+            },
+            {
+              "kind": "membership_summary",
+              "id": 4011670,
+              "project_id": 1029336,
+              "project_name": "Steve Magelowitz's work",
+              "project_color": "74a4d7",
+              "role": "owner",
+              "last_viewed_at": "2014-03-27T19:05:05Z"
+            },
+            {
+              "kind": "membership_summary",
+              "id": 4019554,
+              "project_id": 1031130,
+              "project_name": "students.gschool.it",
+              "project_color": "ffc100",
+              "role": "member",
+              "last_viewed_at": "2014-04-14T07:38:55Z"
+            },
+            {
+              "kind": "membership_summary",
+              "id": 4047462,
+              "project_id": 1037360,
+              "project_name": "gSchoolScreenHeroRequests",
+              "project_color": "ba6eff",
+              "role": "member",
+              "last_viewed_at": "2014-03-21T03:04:43Z"
+            },
+            {
+              "kind": "membership_summary",
+              "id": 4091208,
+              "project_id": 1047444,
+              "project_name": "URL Shortener - Steve + Bebe",
+              "project_color": "8100ea",
+              "role": "owner"
+            },
+            {
+              "kind": "membership_summary",
+              "id": 4147894,
+              "project_id": 1059484,
+              "project_name": "App Review",
+              "project_color": "818182",
+              "role": "owner",
+              "last_viewed_at": "2014-04-14T07:40:01Z"
+            },
+            {
+              "kind": "membership_summary",
+              "id": 4151428,
+              "project_id": 1060110,
+              "project_name": "Evans user authentification",
+              "project_color": "ac3f65",
+              "role": "owner",
+              "last_viewed_at": "2014-04-28T16:55:17Z"
+            },
+            {
+              "kind": "membership_summary",
+              "id": 4186406,
+              "project_id": 1068006,
+              "project_name": "Salary Survey",
+              "project_color": "555555",
+              "role": "owner",
+              "last_viewed_at": "2014-04-28T03:49:25Z"
+            },
+            {
+              "kind": "membership_summary",
+              "id": 4191000,
+              "project_id": 1069174,
+              "project_name": "Floral Violet: Team CRUD gschool",
+              "project_color": "91a400",
+              "role": "owner",
+              "last_viewed_at": "2014-04-30T22:44:12Z"
+            },
+            {
+              "kind": "membership_summary",
+              "id": 4222010,
+              "project_id": 1075330,
+              "project_name": "Magelowitz and King TrackerHub",
+              "project_color": "d82b00",
+              "role": "owner",
+              "last_viewed_at": "2014-05-07T21:03:58Z"
+            }
+          ],
+          "email": "steven.magelowitz@gmail.com",
+          "receives_in_app_notifications": true
+        }
+    http_version: 
+  recorded_at: Thu, 08 May 2014 17:07:56 GMT
+recorded_with: VCR 2.9.0

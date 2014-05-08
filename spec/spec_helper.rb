@@ -3,6 +3,7 @@ ENV["RAILS_ENV"] ||= 'test'
 require File.expand_path("../../config/environment", __FILE__)
 require 'rspec/rails'
 require 'rspec/autorun'
+require 'vcr'
 
 # Requires supporting ruby files with custom matchers and macros, etc,
 # in spec/support/ and its subdirectories.
@@ -39,4 +40,11 @@ RSpec.configure do |config|
   # the seed, which is printed after each run.
   #     --seed 1234
   config.order = "random"
+  VCR.configure do |c|
+    c.cassette_library_dir = 'spec/vcr'
+    c.hook_into :webmock # or :fakeweb
+    c.filter_sensitive_data('<TRACKER-TOKEN>') { ENV['STEVE_PIVOTAL'] }
+    # c.filter_sensitive_data('<GITHUB-USERNAME>') {"ENV['GUS_GH_U']"}
+    # c.filter_sensitive_data('<GITHUB-PASSWORD>') {"ENV['GUS_GH_P']"}
+  end
 end
